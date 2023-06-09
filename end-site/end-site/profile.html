@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header>
+        <div class="headertop">
+           <div class="headertopleft"> <h2></h2> <div></div> <h4></h4> </div>
+           <div class="headertopright" ><span class="nze">Nzekwe<i id="aangleup" class="uil uil-angle-up"></i>
+            <div class="adropdown">
+              <ul>
+                <a class="aa" href="profile.html">Profile <div class="a activ"></div></a>
+                <a class="ab" href="main.html">Our website <div class="a"></div></a>
+                <a class="ac" href="landing.html">Pay Now <div class="a"></div></a>
+                <a class="ad" href="login.html">Log out <div class="a"></div></a>
+                
+              </ul>
+             </div></span></div>
+           
+        </div>
+        
+    </header>
+    <div class="container">
+       <h1 class="myprofile">My Profile</h1>
+       <div class="bigcontainer">
+        <div class="fullname">
+            <div>
+          <h4>Full name</h4>
+          <input type="text" id="inPuT" placeholder="Nzekwe Henry"> 
+        </div>
+        <span class="save"></span> 
+
+        </div>
+        <div class="fullname">
+            <div>
+          <h4>Address</h4>
+          <input type="text" id="inPut" placeholder="">  
+        </div>
+        <span class="save"></span> 
+
+        </div>
+        <div class="fullname">
+            <div>
+          <h4>National Id</h4>
+          <input type="text" id="inPut" placeholder=""> 
+        </div>
+        <span class="save"></span>  
+
+        </div>
+        <div class="fullname">
+            <div>
+          <h4>Email</h4>
+          <input type="text" id="inPut" placeholder="henrynzekwe25@gmail.com"> 
+        </div>
+        <span class="save"></span>  
+        </div>
+   
+        <div class="fullname">
+            <div>
+          <h4>Mobile Phone</h4>
+          <input type="text" id="inPut" placeholder="">
+     
+        </div>
+        <span class="save"></span> 
+        </div>
+       
+       </div>
+       <div class="buttondiv"><div></div><button class="button">Save</button></div>
+       <div class="view"><h1 class="payment">Payment History</h1> </div>
+       <div class="sort"><div><label for="sortcategory">Search by License id</label><div class="arrow"><input id="sortcategory" type="text" placeholder=".."><i class="uil uil-angle-up"></i></div>
+        <div class="dropdown">
+          <ul>
+             <li id="allli">Car insurance</li>
+             <li id="allli">House insurance</li>
+             <li id="allli">Life insurance</li>
+             <li id="allli">Health insurance</li>
+             <li id="allli">Policy insurance</li>
+             <li id="allli">Payment insurance</li>
+             <li id="allli">Travel insurance</li>
+             <li id="allli">Family insurance</li>
+          </ul>
+        </div>
+        </div><div><label for="sortfrom">From</label><input id="sortfrom" type="text" placeholder="dd/mm/yy"></div> <div><label for="sortdate">To</label><input id="sortdate" type="text" placeholder="dd/mm/yy"></div> <div><button class="buttonn" >SEARCH</button></div>   </div>
+   
+
+       <div class="bigcontainer" id="bigcontainer">
+        
+        <div class="category">
+            <div class="tc">No.</div>
+            <div class="tc">License id</div>
+         <div class="tc">Type of License</div>
+         <div class="tc">Start Date</div>
+         <div class="tc">End Date</div>
+         <div class="tc">View Invoice</div>
+         <div class="tc">Download Invoice</div>
+        </div>
+        <div class="insurance">
+        <div class="ins"><span class="num">1</span><span>QWERT12345</span><span> Car insurance</span> <span>10/04/2022 </span><span>10/06/2022</span><span><a href="./image/receipt.pdf">Click to view</a></span><span class="pdfholder"><a href="./image/receipt.pdf" download><img class="pdf" src="./image/kindpng_333072.png" alt="download invoice"></a></span></div>
+        <div class="ins"><span class="num">2</span><span>QWERB12345</span><span> Life insurance</span> <span>07/04/2022 </span><span>19/06/2022</span><span><a href="./image/receipt.pdf">Click to view</a></span><span class="pdfholder"><a href="./image/receipt.pdf" download><img class="pdf" src="./image/kindpng_333072.png" alt="download invoice"></a></span></div>
+        <div class="ins"><span class="num">3</span><span>QWWOT12345</span><span> House insurance</span> <span>08/04/2022 </span><span>13/06/2022</span><span><a href="./image/receipt.pdf">Click to view</a></span><span class="pdfholder"><a href="./image/receipt.pdf" download><img class="pdf" src="./image/kindpng_333072.png" alt="download invoice"></a></span></div>
+    </div>
+       </div>
+    </div>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>

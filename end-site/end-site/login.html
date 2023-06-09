@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="fpasscontainer">
+    <div class="form-container" id="fpass">
+        <form action="#" method="post" class="form-wrap" id="formwrap";>
+            <h2 id="h2" style="position: relative;">Forgot Password</h2>
+            <div class="form-box">
+                
+                <input type="text" id="fgpassword" placeholder="Enter Email">
+                <i id="envelope" class="uil uil-envelope"></i></div>
+            
+            <div class="regemail">Please include a registered email</div>
+            <div class="form-submit">
+                <input type="submit" id="submitt" value="Send">
+            </div>
+            <a href="#" class="goback">Sign in Now  or Login</a>
+
+        </form>
+    </div>
+</div>
+    <div class="container">
+        <div class="forms">
+     
+            <div class="form login" id="formlogin">
+                <span class="title">Login</span>
+                  <form action="#">
+                    <div class="input-field">
+                        <input  type="text" placeholder="Email or Username" required>
+                        <i  class="uil uil-envelope"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Enter your password" required>
+                        <i class="uil uil-lock"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Remember me</label>
+                        </div>
+                        <a href="#" class="texttt" id="remember1">Forgot password?</a>
+                    </div>
+                    <div class="input-field button">
+                        <input type="button" value="Login Now" required>
+                        
+                    </div>
+                  </form>
+                  
+                  <div class="login-sign-up">
+                   <span class="text">Not a member?
+                    <a href="#" class="signup-link" id="remember1">Sign up Now</a>
+                   </span>
+                   
+                </div>
+            </div>
+            
+            <div class="form signUp">
+                <span class="title">Registration</span>
+                  <form action="#" id="loginform">
+                    <div class="input-field">
+                        <input type="text" id="fullnm" placeholder="Fullname" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="nmsm"><span>Please enter your name and surname respectively</span></div>
+                    <div class="input-field">
+                        <input type="text" id="alreadyexist" placeholder="Enter a username" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="alreadyexist"><span>Please enter a username</span></div>
+
+                    <div class="input-field">
+                        <input type="text" id="emaill" placeholder="Enter your Email" required>
+                        <i class="uil uil-envelope"></i>
+                    </div>
+                    <div class="emaill"><span>Please enter your Email address</span></div>
+
+                    <div class="input-field">
+                        <input type="password" class="password" id="password-field" placeholder="Enter your password" required>
+                        <i class="uil uil-lock"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+                    <div class="password-policies">
+                        <div class="strength">
+                            <div class="red" id="red"></div>
+                            
+                        </div>
+                        <div class="policy-length">
+                            <i class="uil uil-times-circle one" id="one"></i>8 Characters
+                        </div>
+                        <div class="policy-number">
+                            <i class="uil uil-times-circle two"></i>Contains number
+                        </div>
+                        <div class="policy-uppercase">
+                            <i class="uil uil-times-circle three"></i>Contains uppercase
+                        </div>
+                        <div class="policy-special">
+                           <i class="uil uil-times-circle four"></i>Contains special characters
+                        </div>
+                        
+                        </div>
+                    <div class="input-field">
+                        <input type="password" class="password" id="password-field2" placeholder="Confirm password" required>
+                        <i class="uil uil-lock"></i>
+                        
+                    </div>
+                    <div class="matching"></div>
+                    <div class="plscon">please confirm your password</div>
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Remember me</label>
+                        </div>
+                        <a href="#" class="text" id="remember2"></a>
+                    </div>
+                    <div class="input-field button">
+                        <input type="button" id="loginbtn"   value="Login Now" required>
+                        
+                    </div>
+                  </form>
+       
+                  <div class="login-sign-up">
+                   <span class="text">Already a member?
+                    <a href="#" class="login-link" id="remember2">Sign in Now</a>
+                   </span>
+                   
+                </div>
+           
+        </div>
+        </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body> 
+</html>

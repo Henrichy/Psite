@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: #f7f6f6;
+}
+header{
+   background: #fff;
+   padding: 0 70px;
+   border-bottom: 1px solid rgb(211, 209, 209);
+
+}
+header .headertop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+header .headertopleft{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+    
+}
+header .headerbottom{
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header .headertop .headertopleft .horizon{
+    width: 1px;
+    height: 15px;
+    background: rgb(211, 209, 209);;
+}
+header .headerbottom span{
+    border-bottom:2px solid rgb(0, 136, 255);
+    padding-bottom: 12px;
+    font-size: 13px;
+}
+.container{
+    padding: 20px 70px;
+}
+.container .bigcontainer{
+    margin-top: 10px;
+    background: #fff;
+    padding: 0;
+    border-bottom: 1px solid rgb(211, 209, 209);
+
+}
+.container .bigcontainer .fullname{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+   
+    border-bottom: 1px solid rgb(211, 209, 209);
+}
+.fullname div{
+    
+  width: 100%;
+}
+.container .bigcontainer .fullname input{
+    outline: none;
+    border: none;
+   
+    width: 100%;
+    margin-top: 5px;
+}
+.container .bigcontainer .fullname span{
+    cursor: pointer;
+    font-size: 10px;
+    text-transform: lowercase;
+}
+.container .bigcontainer .fullname span:hover{
+    padding: 5px;
+    background: rgb(88, 88, 219);
+    color: #fff;
+    border-radius: 10px;
+}
+#bigcontainer{
+    background: #fff;
+}
+.bigcontainer .license{
+    padding: 20px 10px;
+}
+.licenseid{
+    display: flex;
+    align-items: center;
+}
+.bigcontainer .category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-bottom: 1px solid rgb(211, 209, 209);
+}
+.bigcontainer .category .tc{
+    border-right: 1px solid rgb(211, 209, 209);
+    padding: 15px 0 10px 0px;
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    
+}
+.bigcontainer .category .tc:nth-child(1){
+    width: 5%;
+}
+
+.bigcontainer .category .tc:nth-child(7){
+    border-right: 1px solid #fff;
+}
+.bigcontainer .insurance .ins{
+    border-bottom: 1px solid rgb(211, 209, 209);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.bigcontainer .insurance .ins span{
+    border-right: 1px solid rgb(211, 209, 209);
+    padding: 15px 0 10px 0px;
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    
+    
+}
+.bigcontainer .insurance .ins a{
+    text-decoration: none;
+    color: rgb(88, 88, 219); 
+}
+.bigcontainer .insurance .ins .pdf{
+    width: 25px;
+    height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bigcontainer .insurance .ins .pdfholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bigcontainer .insurance .ins a:hover{
+    color: #000;
+}
+.bigcontainer .insurance .ins span:nth-child(1){
+    width: 5%;
+}
+.bigcontainer .insurance .ins span:nth-child(7){
+    border-right: 1px solid #fff;
+}
+.view{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.sort .uil{
+    position: absolute;
+    top: 7;
+    right: 0;
+}
+.sort .arrow{
+    position: relative;
+    width: 100%;
+}
+.viewall:hover{
+    
+   
+    color: rgb(57, 207, 15);
+    
+    cursor: pointer;
+    
+}
+.textview{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.textview input{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+}
+.textview .viewall{
+    padding: 5px 25px;
+    background: #114068;
+    color: #fff;
+    border-radius: 12px;
+    font-size: 13px;
+}
+.buttondiv{
+display: flex;
+justify-content: space-between;
+}
+.buttonn{
+    background: #114068; 
+  color: white; 
+  border: none; 
+  
+  padding: 10px 35px;
+   border-radius: 12px; 
+   margin: 10px 0 10px 0;
+}
+.button{
+    background: #114068; 
+    color: white;
+     border: none; 
+    padding: 10px 35px; 
+    border-radius: 12px; 
+    margin: 10px;
+}
+.sort{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+.sort input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 6px;
+    align-items: center;
+    display: flex;
+    margin: 10px 0;
+    box-shadow: 0 3px 4px 0px gray ;
+
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    height: 12rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px gray ;
+}
+.dropdown ul li{
+    list-style: none;
+   
+    padding: 15px;
+}
+.dropdown ul li:hover{
+    background: #000;
+    opacity: 0.5;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.adropdown{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px gray ;
+    margin-top: 10px;
+}
+.activ{
+    width: 6px;
+    height: 6px;
+    position: absolute;
+  border-radius: 50%;
+  background: #114068;
+    top: 10px;
+    right: 54px;
+
+}
+
+.nze{
+    position: relative;
+}
+.adropdown ul{
+    padding: 0;
+}
+.adropdown ul a{
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+    width: 100px;
+}
+.adropdown ul a:hover{
+    background: #000;
+    opacity: 0.5;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pay{
+    padding: 10px 0;
+    background: rgb(88, 88, 219);
+    color: #fff;
+    border-radius: 10px;  
+}
+.divpay:hover{
+  cursor: pointer;
+  border:2px solid #fff;
+ 
+}
+.container .receipt{
+    margin-top: 20px;
+}
+.container .receipt a{
+    text-decoration: none;
+    color: rgb(88, 88, 219);
+   
+}
+.container .receipt a:hover{
+    color: #000;
+}
+@media screen and (max-width: 777px){
+    .container{
+        padding: 20px 10px;
+    }
+    .headertopleft h4{
+        display: none;
+    }
+    header{
+        border-bottom: 1px solid rgb(211, 209, 209);
+
+    }
+    header .headertop{
+        border: none;
+        padding: 20px 0;
+    }
+    header .headerbottom{
+        display: none;
+    }
+    header .headertop .headertopleft .horizon{
+      display: none;
+    }
+    .bigcontainer .category{
+        font-size: 9px;   
+    }
+    .bigcontainer .category .tc{
+        height: 30px;
+    }
+    .bigcontainer .insurance .ins{
+        font-size: 9px;
+    }
+    .bigcontainer .insurance .ins span{
+        height: 30px;
+    }
+    .bigcontainer .category .tc:nth-child(6){
+        display: none;
+    }
+    .bigcontainer .insurance .ins span:nth-child(6){
+     display: none;
+    }
+    .sort label{
+        font-size: 13px;
+        
+    }
+    .sort{
+        display: block;
+    }
+    .buttonn{
+        width: 100%;
+        
+    }
+    .bigcontainer .insurance .ins span{
+        padding: 10px 0 10px 0px;
+    }
+    .payment{
+   font-size: 23px;
+    }
+    .myprofile{
+        font-size: 23px;
+         }
+}
